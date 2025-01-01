@@ -1,6 +1,6 @@
 ## Challenge Oracle + ONE - Alura Geek
 
-O **Alura Geek** foi um desafio proposto - Sprint 2, para os alunos da 3ª fase do Programa ONE (parceria entre Alura & Oracle )
+O **Alura Geek** foi um desafio da sprint 2 que foi proposto para os alunos da 3ª fase do Programa ONE (parceria entre Alura & Oracle).
 Trata-se de uma página de uma empresa fictícia que está precisando adquirir mais clientes e aumentar suas vendas e, para isso, deseja implementar um e-commerce e levar a empresa ao próximo patamar, se tornar mais digital.
 
 ### Tecnologias utilizadas
@@ -30,7 +30,7 @@ Trata-se de uma página de uma empresa fictícia que está precisando adquirir m
 OBS.: É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
 
-### Agrdecimentos: 
+### Agradecimentos: 
 
 * Programa ONE
 * Oracle
