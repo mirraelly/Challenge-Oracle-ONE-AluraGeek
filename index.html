@@ -34,13 +34,13 @@
       </div>
       <div class="right-header">
         <div class="searsh-container">
-            <input
-              placeholder="O que deseja encontrar?"
-              type="text"
-              class="header-caixa-input"
-            />
-            <button class="search-button" h data-search-btn></button>
-          </div>
+          <input
+            placeholder="O que deseja encontrar?"
+            type="text"
+            class="header-caixa-input"
+          />
+          <button class="search-button" h data-search-btn></button>
+        </div>
         <a class="login-button-container" href="./imagens/login-formulario.png">
           <button class="header-button">Login</button>
         </a>
@@ -48,280 +48,348 @@
     </header>
 
     <main class="main-conteiner">
-      <!-- banner -->
-
       <section class="banner-conteiner" data-banner="">
-        <div class="banner-caixa">
-          <h1 class="banner-titulo">Promoção dia do gammer!</h1>
-          <p class="banner-texto">Produtos selecionados com 65% de desconto.</p>
-          <a href="#console"
-            ><button class="banner-button">Ver Console</button>
+        <div class="banner-box">
+          <h1 class="banner-title">Promoção dia do gammer!</h1>
+          <p class="banner-text">Produtos selecionados com 65% de desconto.</p>
+          <a href="#console">
+            <button class="banner-button">Ver Console</button>
           </a>
         </div>
       </section>
-      <div class="produtos-home-procurar" data-product="">
-        <section class="produtos-conteiner">
-          <div class="produtos-titulo1">
-            <h2 class="produtos-titulo">Starwars</h2>
-            <div class="produtos-mais">
-              <a href="html/produtos.html" class="produtos-link">Ver Mais</a
-              ><img
-                src="./imagens/seta.png "
-                class="produtos-seta"
-                name="seta"
-              />
+
+      <section class="products-section-home">
+        <div class="find-home-products" data-product="">
+          <section class="products-container">
+            <div class="products-top">
+              <h2 class="products-title">Starwars</h2>
+              <div class="produtos-mais">
+                <a href="html/produtos.html" class="produtos-link"> Ver Mais</a>
+                <img
+                  src="./imagens/seta.png "
+                  class="produtos-seta"
+                  name="seta"
+                />
+              </div>
             </div>
-          </div>
-          <div class="produtos-caixa" id="starwars">
-            <div class="produtos-itens" data-id="1">
-              <img
-                src="https://cdn.trendhunterstatic.com/thumbs/stormtrooper-mug.jpeg?auto=webp"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Caneca</h2>
-              <p class="produtos-preço">R$ 60.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
+            <div class="products-bottom" id="starwars">
+              <div class="produtos-itens" data-id="1">
+                <img
+                  src="./imagens/star-wars.svg"
+                  alt="Caneca de Star Wars"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Caneca</h2>
+                <p class="produtos-preço">R$ 60.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="2">
+                <img
+                  src="./imagens/caixa-som-star-wars.svg"
+                  alt="Caixa de som de star wars"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Capacetes - LEGO</h2>
+                <p class="produtos-preço">R$ 250.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="4">
+                <img
+                  src="./imagens/ioda.svg"
+                  alt="Boneco Yoda"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Stormtrooper</h2>
+                <p class="produtos-preço">R$ 90.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="5">
+                <img
+                  src="./imagens/robo-star-wars.svg"
+                  alt="Robô de Star Wars"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Kylo Ren</h2>
+                <p class="produtos-preço">R$ 185.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="6">
+                <img
+                  src="imagens/yoda-grande.svg"
+                  alt="Yoda Grande"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Mestre Yoda</h2>
+                <p class="produtos-preço">R$ 115.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="6">
+                <img
+                  src="imagens/boneco-star-wars-com-capa.svg"
+                  alt="Boneco de Star Wars com capa"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Produto XYZ</h2>
+                <p class="produtos-preço">R$ 60.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
             </div>
-            <div class="produtos-itens" data-id="2">
-              <img
-                src="https://blogdebrinquedo.com.br/wp-content/uploads/2021/03/20210326capacetes-lego-star-wars-darth-vader-e-scout-trooper-01.jpg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Capacetes - LEGO</h2>
-              <p class="produtos-preço">R$ 250.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
+          </section>
+
+          <section class="products-container">
+            <div class="products-top">
+              <h2 class="products-title">Consoles</h2>
+              <div class="produtos-mais">
+                <a href="/html/products.html" class="produtos-link">Ver Mais</a
+                ><img src="./imagens/seta.png" class="produtos-seta" />
+              </div>
             </div>
-            <div class="produtos-itens" data-id="4">
-              <img
-                src="https://imtoys.com.br/wp-content/uploads/2020/04/IMG_20200411_1303500242.jpg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Stormtrooper</h2>
-              <p class="produtos-preço">R$ 90.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
+            <div class="products-bottom" id="console">
+              <div class="produtos-itens" data-id="7">
+                <img
+                  src="./imagens/controller-white.svg"
+                  alt="Controle Branco"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Joystick Xbox</h2>
+                <p class="produtos-preço">R$ 370.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="8">
+                <img
+                  src="./imagens/video-game.svg"
+                  alt="video game"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">NES</h2>
+                <p class="produtos-preço">R$ 350.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="10">
+                <img
+                  src="./imagens/nintendo.svg"
+                  alt="Nintendo"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Controle Switch</h2>
+                <p class="produtos-preço">R$ 399.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="11">
+                <img
+                  src="./imagens/nintendo-switch.svg"
+                  alt="Nintendo switch"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Xbox- series X</h2>
+                <p class="produtos-preço">R$ 4499.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="12">
+                <img
+                  src="./imagens/game8.svg"
+                  alt="Game 8"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Gameboy color</h2>
+                <p class="produtos-preço">R$ 499.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="12">
+                <img
+                  src="./imagens/game9.svg"
+                  alt="Game 9"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Gameboy color</h2>
+                <p class="produtos-preço">R$ 499.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              
             </div>
-            <div class="produtos-itens" data-id="5">
-              <img
-                src="https://static3.tcdn.com.br/img/img_prod/460977/action_figure_kylo_ren_star_wars_episodio_7_o_despertar_da_forca_escala_1_6_hot_toys_mms320_usado_se_102123_1_3e68e8da60145b19ec5e0d2e459511cf.jpg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Kylo Ren</h2>
-              <p class="produtos-preço">R$ 185.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
+          </section>
+
+          <section class="products-container">
+            <div class="products-top">
+              <h2 class="products-title">Diversos</h2>
+              <div class="produtos-mais">
+                <a href="/html/products.html" class="produtos-link">Ver Mais</a
+                ><img src="./imagens/seta.png" class="produtos-seta" />
+              </div>
             </div>
-            <div class="produtos-itens" data-id="6">
-              <img
-                src="https://hasbropulse.com/cdn/shop/products/E8077_SW_Yoda_51_2000x.jpg?v=1582409616"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Mestre Yoda</h2>
-              <p class="produtos-preço">R$ 115.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
+            <div class="products-bottom" id="diversos">
+              <div class="produtos-itens" data-id="13">
+                <img
+                  src="./imagens/game10.svg"
+                  alt="Game 10"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Camisa Atari</h2>
+                <p class="produtos-preço">R$ 89.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="14">
+                <img
+                  src="./imagens/game11.svg"
+                  alt="Game 11"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Camisa SNES</h2>
+                <p class="produtos-preço">R$ 89.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="16">
+                <img
+                  src="./imagens/game12.svg"
+                  alt="Game 12"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Radio relógio Barbie</h2>
+                <p class="produtos-preço">R$ 149.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="products__items" data-id="17">
+                <img
+                  src="./imagens/game13.svg"
+                  alt="Game 13"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Óculos VR</h2>
+                <p class="produtos-preço">R$ 399.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="products__items" data-id="17">
+                <img
+                  src="./imagens/game14.svg"
+                  alt="Game 14"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Óculos VR</h2>
+                <p class="produtos-preço">R$ 399.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="products__items" data-id="17">
+                <img
+                  src="./imagens/game15.svg"
+                  alt="Game 15"
+                  class="produtos-imagem-todos"
+                />
+                <h2 class="produtos-nome">Óculos VR</h2>
+                <p class="produtos-preço">R$ 399.00</p>
+                <a
+                  href=""
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
             </div>
-          </div>
-        </section>
-        <section class="produtos-conteiner">
-          <div class="produtos-titulo1">
-            <h2 class="produtos-titulo">Console</h2>
-            <div class="produtos-mais">
-              <a href="/html/products.html" class="produtos-link">Ver Mais</a
-              ><img src="./imagens/seta.png" class="produtos-seta" />
-            </div>
-          </div>
-          <div class="produtos-caixa" id="console">
-            <div class="produtos-itens" data-id="7">
-              <img
-                src="https://http2.mlstatic.com/D_NQ_NP_2X_656974-MLA45720795340_042021-F.webp"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Joystick Xbox</h2>
-              <p class="produtos-preço">R$ 370.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-            <div class="produtos-itens" data-id="8">
-              <img
-                src="https://http2.mlstatic.com/D_Q_NP_976439-MLA32731593325_112019-O.webp"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">NES</h2>
-              <p class="produtos-preço">R$ 350.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-            <div class="produtos-itens" data-id="10">
-              <img
-                src="https://imgs.pontofrio.com.br/1526425230/1xg.jpg?imwidth=292"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Controle Switch</h2>
-              <p class="produtos-preço">R$ 399.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-            <div class="produtos-itens" data-id="11">
-              <img
-                src="https://assets.xboxservices.com/assets/d2/d4/d2d49e15-65ea-4e87-9d35-66123e183423.jpg?n=Cyberpunk-2077_Feature-0_XSX_767x628.jpg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Xbox- series X</h2>
-              <p class="produtos-preço">R$ 4499.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-            <div class="produtos-itens" data-id="12">
-              <img
-                src="https://images.unsplash.com/photo-1577583113753-ca7e95d1bdc6?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Gameboy color</h2>
-              <p class="produtos-preço">R$ 499.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-          </div>
-        </section>
-        <section class="produtos-conteiner">
-          <div class="produtos-titulo1">
-            <h2 class="produtos-titulo">Diversos</h2>
-            <div class="produtos-mais">
-              <a href="/html/products.html" class="produtos-link">Ver Mais</a
-              ><img src="./imagens/seta.png" class="produtos-seta" />
-            </div>
-          </div>
-          <div class="produtos-caixa" id="diversos">
-            <div class="produtos-itens" data-id="13">
-              <img
-                src="https://static.wixstatic.com/media/nsplsh_5635571c3c35462b93ee4a62da69538f~mv2.jpg/v1/fill/w_376,h_313,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Red%20Dot.jpg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Camisa Atari</h2>
-              <p class="produtos-preço">R$ 89.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-            <div class="produtos-itens" data-id="14">
-              <img
-                src="https://bluefirepulsar.com/wp-content/uploads/2019/10/kelly-sikkema-bUgaIaZysH0-unsplash-1536x1024.jpg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Camisa SNES</h2>
-              <p class="produtos-preço">R$ 89.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-            <div class="produtos-itens" data-id="16">
-              <img
-                src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2229bce-6cc8-49ce-a690-7b60f90e4c48_5952x4480.jpeg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Radio relógio Barbie</h2>
-              <p class="produtos-preço">R$ 149.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-            <div class="products__items" data-id="17">
-              <img
-                src="https://www.zero3games.com.br/blog-media/wp-content/uploads/2018/12/playstationvr-min.jpg"
-                alt=""
-                class="produtos-imagem-todos"
-              />
-              <h2 class="produtos-nome">Óculos VR</h2>
-              <p class="produtos-preço">R$ 399.00</p>
-              <a
-                href=""
-                class="produtos-link"
-                id="ver-produto"
-                data-product-id=""
-                >Ver produto</a
-              >
-            </div>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
+      </section>
     </main>
 
     <footer class="rodape-conteiner">
