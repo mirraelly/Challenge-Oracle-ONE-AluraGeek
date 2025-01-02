@@ -1,239 +1,410 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fontes utilizadas -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Alura Geek</title>
-</head>
+  </head>
 
-<body>
-    <header class="header-conteiner">
-        <div class="header-caixa">
-            <div class="header-caixa-esquerda">
-                <a href="./index.html">
-                    <img src="./imagens/Logo.png" alt="alurageek logo" class="header-logo">
-                </a>
-                <div class="header-caixa-busca">
-                    <input placeholder="O que deseja encontrar?" type="text" class="header-caixa-input">
-                    <button class="header-button-principal" h data-search-btn></button>
-                </div>
+  <body>
+    <header class="header-container">
+      <div class="left-header">
+        <div class="header-left-container">
+          <a href="./index.html" class="logo-container">
+            <div class="logo-image-container">
+              <img
+                src="./imagens/controller.svg"
+                alt="Logo da Alura Geek"
+                class="header-logo"
+              />
             </div>
+            <h3 class="page-title">Alura<strong>Geek</strong></h3>
+          </a>
         </div>
-        <div class="header-caixa-direita">
-            <a class="caixa-formulario-login" href="./imagens/login-formulario.png"><button
-                    class="header-button">Login</button></a>
-        </div>
-
+      </div>
+      <div class="right-header">
+        <div class="searsh-container">
+            <input
+              placeholder="O que deseja encontrar?"
+              type="text"
+              class="header-caixa-input"
+            />
+            <button class="search-button" h data-search-btn></button>
+          </div>
+        <a class="login-button-container" href="./imagens/login-formulario.png">
+          <button class="header-button">Login</button>
+        </a>
+      </div>
     </header>
 
     <main class="main-conteiner">
-        <!-- banner -->
+      <!-- banner -->
 
-        <section class="banner-conteiner" data-banner="">
-            <div class="banner-caixa">
-
-                <h1 class="banner-titulo">Promoção dia do gammer!</h1>
-                <p class="banner-texto">
-                    Produtos selecionados com 65% de desconto.
-                </p>
-                <a href="#console"><button class="banner-button">Ver Console</button>
-                </a>
-            </div>
-        </section>
-        <div class="produtos-home-procurar" data-product="">
-            <section class="produtos-conteiner">
-                <div class="produtos-titulo1">
-                    <h2 class="produtos-titulo">Starwars</h2>
-                    <div class="produtos-mais"><a href="html/produtos.html" class="produtos-link">Ver Mais</a><img
-                            src="./imagens/seta.png " class="produtos-seta" name="seta"></div>
-                </div>
-                <div class="produtos-caixa" id="starwars">
-                    <div class="produtos-itens" data-id="1">
-                        <img src="https://cdn.trendhunterstatic.com/thumbs/stormtrooper-mug.jpeg?auto=webp" alt=""
-                            class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Caneca</h2>
-                        <p class="produtos-preço">R$ 60.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="2">
-                        <img src="https://blogdebrinquedo.com.br/wp-content/uploads/2021/03/20210326capacetes-lego-star-wars-darth-vader-e-scout-trooper-01.jpg"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Capacetes - LEGO</h2>
-                        <p class="produtos-preço">R$ 250.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="4">
-                        <img src="https://imtoys.com.br/wp-content/uploads/2020/04/IMG_20200411_1303500242.jpg" alt=""
-                            class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Stormtrooper </h2>
-                        <p class="produtos-preço">R$ 90.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="5">
-                        <img src="https://static3.tcdn.com.br/img/img_prod/460977/action_figure_kylo_ren_star_wars_episodio_7_o_despertar_da_forca_escala_1_6_hot_toys_mms320_usado_se_102123_1_3e68e8da60145b19ec5e0d2e459511cf.jpg"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Kylo Ren </h2>
-                        <p class="produtos-preço">R$ 185.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="6">
-                        <img src="https://hasbropulse.com/cdn/shop/products/E8077_SW_Yoda_51_2000x.jpg?v=1582409616"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Mestre Yoda</h2>
-                        <p class="produtos-preço">R$ 115.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                </div>
-            </section>
-            <section class="produtos-conteiner">
-                <div class="produtos-titulo1">
-                    <h2 class="produtos-titulo">Console</h2>
-                    <div class="produtos-mais"><a href="/html/products.html" class="produtos-link">Ver Mais</a><img
-                            src="./imagens/seta.png" class="produtos-seta"></div>
-                </div>
-                <div class="produtos-caixa" id="console">
-                    <div class="produtos-itens" data-id="7">
-                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_656974-MLA45720795340_042021-F.webp" alt=""
-                            class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Joystick Xbox</h2>
-                        <p class="produtos-preço">R$ 370.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="8">
-                        <img src="https://http2.mlstatic.com/D_Q_NP_976439-MLA32731593325_112019-O.webp" alt=""
-                            class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">NES</h2>
-                        <p class="produtos-preço">R$ 350.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="10">
-                        <img src="https://imgs.pontofrio.com.br/1526425230/1xg.jpg?imwidth=292" alt=""
-                            class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Controle Switch</h2>
-                        <p class="produtos-preço">R$ 399.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="11">
-                        <img src="https://assets.xboxservices.com/assets/d2/d4/d2d49e15-65ea-4e87-9d35-66123e183423.jpg?n=Cyberpunk-2077_Feature-0_XSX_767x628.jpg"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Xbox- series X</h2>
-                        <p class="produtos-preço">R$ 4499.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="12">
-                        <img src="https://images.unsplash.com/photo-1577583113753-ca7e95d1bdc6?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Gameboy color</h2>
-                        <p class="produtos-preço">R$ 499.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                </div>
-            </section>
-            <section class="produtos-conteiner">
-                <div class="produtos-titulo1">
-                    <h2 class="produtos-titulo">Diversos</h2>
-                    <div class="produtos-mais"><a href="/html/products.html" class="produtos-link">Ver Mais</a><img
-                            src="./imagens/seta.png" class="produtos-seta"></div>
-                </div>
-                <div class="produtos-caixa" id="diversos">
-                    <div class="produtos-itens" data-id="13">
-                        <img src="https://static.wixstatic.com/media/nsplsh_5635571c3c35462b93ee4a62da69538f~mv2.jpg/v1/fill/w_376,h_313,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Red%20Dot.jpg"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Camisa Atari</h2>
-                        <p class="produtos-preço">R$ 89.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="14">
-                        <img src="https://bluefirepulsar.com/wp-content/uploads/2019/10/kelly-sikkema-bUgaIaZysH0-unsplash-1536x1024.jpg"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Camisa SNES</h2>
-                        <p class="produtos-preço">R$ 89.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="produtos-itens" data-id="16">
-                        <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2229bce-6cc8-49ce-a690-7b60f90e4c48_5952x4480.jpeg"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Radio relógio Barbie</h2>
-                        <p class="produtos-preço">R$ 149.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                    <div class="products__items" data-id="17">
-                        <img src="https://www.zero3games.com.br/blog-media/wp-content/uploads/2018/12/playstationvr-min.jpg"
-                            alt="" class="produtos-imagem-todos">
-                        <h2 class="produtos-nome">Óculos VR</h2>
-                        <p class="produtos-preço">R$ 399.00</p>
-                        <a href="" class="produtos-link" id="ver-produto" data-product-id="">Ver produto</a>
-                    </div>
-                </div>
-            </section>
+      <section class="banner-conteiner" data-banner="">
+        <div class="banner-caixa">
+          <h1 class="banner-titulo">Promoção dia do gammer!</h1>
+          <p class="banner-texto">Produtos selecionados com 65% de desconto.</p>
+          <a href="#console"
+            ><button class="banner-button">Ver Console</button>
+          </a>
         </div>
+      </section>
+      <div class="produtos-home-procurar" data-product="">
+        <section class="produtos-conteiner">
+          <div class="produtos-titulo1">
+            <h2 class="produtos-titulo">Starwars</h2>
+            <div class="produtos-mais">
+              <a href="html/produtos.html" class="produtos-link">Ver Mais</a
+              ><img
+                src="./imagens/seta.png "
+                class="produtos-seta"
+                name="seta"
+              />
+            </div>
+          </div>
+          <div class="produtos-caixa" id="starwars">
+            <div class="produtos-itens" data-id="1">
+              <img
+                src="https://cdn.trendhunterstatic.com/thumbs/stormtrooper-mug.jpeg?auto=webp"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Caneca</h2>
+              <p class="produtos-preço">R$ 60.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="2">
+              <img
+                src="https://blogdebrinquedo.com.br/wp-content/uploads/2021/03/20210326capacetes-lego-star-wars-darth-vader-e-scout-trooper-01.jpg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Capacetes - LEGO</h2>
+              <p class="produtos-preço">R$ 250.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="4">
+              <img
+                src="https://imtoys.com.br/wp-content/uploads/2020/04/IMG_20200411_1303500242.jpg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Stormtrooper</h2>
+              <p class="produtos-preço">R$ 90.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="5">
+              <img
+                src="https://static3.tcdn.com.br/img/img_prod/460977/action_figure_kylo_ren_star_wars_episodio_7_o_despertar_da_forca_escala_1_6_hot_toys_mms320_usado_se_102123_1_3e68e8da60145b19ec5e0d2e459511cf.jpg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Kylo Ren</h2>
+              <p class="produtos-preço">R$ 185.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="6">
+              <img
+                src="https://hasbropulse.com/cdn/shop/products/E8077_SW_Yoda_51_2000x.jpg?v=1582409616"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Mestre Yoda</h2>
+              <p class="produtos-preço">R$ 115.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="produtos-conteiner">
+          <div class="produtos-titulo1">
+            <h2 class="produtos-titulo">Console</h2>
+            <div class="produtos-mais">
+              <a href="/html/products.html" class="produtos-link">Ver Mais</a
+              ><img src="./imagens/seta.png" class="produtos-seta" />
+            </div>
+          </div>
+          <div class="produtos-caixa" id="console">
+            <div class="produtos-itens" data-id="7">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_2X_656974-MLA45720795340_042021-F.webp"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Joystick Xbox</h2>
+              <p class="produtos-preço">R$ 370.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="8">
+              <img
+                src="https://http2.mlstatic.com/D_Q_NP_976439-MLA32731593325_112019-O.webp"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">NES</h2>
+              <p class="produtos-preço">R$ 350.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="10">
+              <img
+                src="https://imgs.pontofrio.com.br/1526425230/1xg.jpg?imwidth=292"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Controle Switch</h2>
+              <p class="produtos-preço">R$ 399.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="11">
+              <img
+                src="https://assets.xboxservices.com/assets/d2/d4/d2d49e15-65ea-4e87-9d35-66123e183423.jpg?n=Cyberpunk-2077_Feature-0_XSX_767x628.jpg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Xbox- series X</h2>
+              <p class="produtos-preço">R$ 4499.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="12">
+              <img
+                src="https://images.unsplash.com/photo-1577583113753-ca7e95d1bdc6?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Gameboy color</h2>
+              <p class="produtos-preço">R$ 499.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="produtos-conteiner">
+          <div class="produtos-titulo1">
+            <h2 class="produtos-titulo">Diversos</h2>
+            <div class="produtos-mais">
+              <a href="/html/products.html" class="produtos-link">Ver Mais</a
+              ><img src="./imagens/seta.png" class="produtos-seta" />
+            </div>
+          </div>
+          <div class="produtos-caixa" id="diversos">
+            <div class="produtos-itens" data-id="13">
+              <img
+                src="https://static.wixstatic.com/media/nsplsh_5635571c3c35462b93ee4a62da69538f~mv2.jpg/v1/fill/w_376,h_313,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Red%20Dot.jpg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Camisa Atari</h2>
+              <p class="produtos-preço">R$ 89.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="14">
+              <img
+                src="https://bluefirepulsar.com/wp-content/uploads/2019/10/kelly-sikkema-bUgaIaZysH0-unsplash-1536x1024.jpg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Camisa SNES</h2>
+              <p class="produtos-preço">R$ 89.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="produtos-itens" data-id="16">
+              <img
+                src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe2229bce-6cc8-49ce-a690-7b60f90e4c48_5952x4480.jpeg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Radio relógio Barbie</h2>
+              <p class="produtos-preço">R$ 149.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+            <div class="products__items" data-id="17">
+              <img
+                src="https://www.zero3games.com.br/blog-media/wp-content/uploads/2018/12/playstationvr-min.jpg"
+                alt=""
+                class="produtos-imagem-todos"
+              />
+              <h2 class="produtos-nome">Óculos VR</h2>
+              <p class="produtos-preço">R$ 399.00</p>
+              <a
+                href=""
+                class="produtos-link"
+                id="ver-produto"
+                data-product-id=""
+                >Ver produto</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="rodape-conteiner">
-        <section class="rodape-content">
-            <div class="rodape-sobre">
-                <a href="#">
-                    <img src="./imagens/Logo.png" alt="alurageek logo" class="rodape-logo">
-                </a>
-                <ul class="rodape-sobre-lista">
-                    <li class="rodape-sobre-lista-item">
-                        <a href="#" class="rodape-sobre-lista-item-link">Quem somos nós</a>
-                    </li>
-                    <li class="rodape-sobre-lista-item">
-                        <a href="#" class="rodape-sobre-lista-item-link">Política de privacidade</a>
-                    </li>
-                    <li class="rodape-sobre-lista-item">
-                        <a href="#" class="rodape-sobre-lista-item-link">Programa fidelidade</a>
-                    </li>
-                    <li class="rodape-sobre-lista-item">
-                        <a href="#" class="rodape-sobre-lista-item-link">Nossas lojas</a>
-                    </li>
-                    <li class="rodape-sobre-lista-item">
-                        <a href="#" class="rodape-sobre-lista-item-link">Quero ser franqueado</a>
-                    </li>
-                    <li class="rodape-sobre-lista-item">
-                        <a href="#" class="rodape-sobre-lista-item-link">Anuncie aqui</a>
-                    </li>
-                </ul>
-            </div>
-            <form class="rodape-form" action="submit" data-form="">
-                <p class="rodape-form-titulo">Fale conosco</p>
-                <fieldset class="rodape-form-field">
-                    <label class="rodape-form-label" for="nome">Nome completo</label>
-                    <input name="nome" id="nome" maxlength="40" minlength="3" type="text" class="rodape-form-field-texto"
-                        required="">
-                    <span class="erro-mensagem"></span>
-                </fieldset>
-                <fieldset class="rodape-form-field rodape-form-field-mensagem">
-                    <label class="rodape-form-label rodape-form-label-mensagem" for="mensagem">Escreva sua
-                        mensagem</label>
-                    <textarea name="mensagem" id="mensagem" type="text" maxlength="120" minlenght="2"
-                        class="rodape-form-field-texto rodape-form-field-texto-mensagem" required=""></textarea>
-                    <span class="erro-mensagem"></span>
-                </fieldset>
+      <section class="rodape-content">
+        <div class="rodape-sobre">
+          <a href="#">
+            <img
+              src="./imagens/Logo.png"
+              alt="alurageek logo"
+              class="rodape-logo"
+            />
+          </a>
+          <ul class="rodape-sobre-lista">
+            <li class="rodape-sobre-lista-item">
+              <a href="#" class="rodape-sobre-lista-item-link"
+                >Quem somos nós</a
+              >
+            </li>
+            <li class="rodape-sobre-lista-item">
+              <a href="#" class="rodape-sobre-lista-item-link"
+                >Política de privacidade</a
+              >
+            </li>
+            <li class="rodape-sobre-lista-item">
+              <a href="#" class="rodape-sobre-lista-item-link"
+                >Programa fidelidade</a
+              >
+            </li>
+            <li class="rodape-sobre-lista-item">
+              <a href="#" class="rodape-sobre-lista-item-link">Nossas lojas</a>
+            </li>
+            <li class="rodape-sobre-lista-item">
+              <a href="#" class="rodape-sobre-lista-item-link"
+                >Quero ser franqueado</a
+              >
+            </li>
+            <li class="rodape-sobre-lista-item">
+              <a href="#" class="rodape-sobre-lista-item-link">Anuncie aqui</a>
+            </li>
+          </ul>
+        </div>
+        <form class="rodape-form" action="submit" data-form="">
+          <p class="rodape-form-titulo">Fale conosco</p>
+          <fieldset class="rodape-form-field">
+            <label class="rodape-form-label" for="nome">Nome completo</label>
+            <input
+              name="nome"
+              id="nome"
+              maxlength="40"
+              minlength="3"
+              type="text"
+              class="rodape-form-field-texto"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="rodape-form-field rodape-form-field-mensagem">
+            <label
+              class="rodape-form-label rodape-form-label-mensagem"
+              for="mensagem"
+              >Escreva sua mensagem</label
+            >
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              type="text"
+              maxlength="120"
+              minlenght="2"
+              class="rodape-form-field-texto rodape-form-field-texto-mensagem"
+              required=""
+            ></textarea>
+            <span class="erro-mensagem"></span>
+          </fieldset>
 
-                <button type="submit" class="rodape-form-button">
-                    Enviar mensagem
-                </button>
-            </form>
-        </section>
-        <section class="rodape-developer-conteiner">
-            <p class="rodape-developer-texto">
-                Desenvolvido por Mirraely Moura
-            </p>
-            <p>2023</p>
-        </section>
+          <button type="submit" class="rodape-form-button">
+            Enviar mensagem
+          </button>
+        </form>
+      </section>
+      <section class="rodape-developer-conteiner">
+        <p class="rodape-developer-texto">Desenvolvido por Mirraely Moura</p>
+        <p>2023</p>
+      </section>
     </footer>
-
-</body>
-
+  </body>
 </html>
