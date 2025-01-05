@@ -58,11 +58,12 @@ main {
   text-decoration: none;
   display: flex;
   align-items: center;
+  gap: 0.25rem;
 }
 
 .logo-container .logo-image-container {
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 2.3rem;
+  height: 2.3rem;
 }
 
 .logo-container .logo-image-container .header-logo {
@@ -207,6 +208,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .produtos-link {
@@ -216,12 +218,13 @@ main {
 }
 
 .products-bottom {
-  width: 44rem;
+  /* width: 44rem; */
+  width: 100%;
   height: fit-content;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  /* gap: 0.5rem; */
 }
 
 .produtos-itens {
@@ -231,9 +234,20 @@ main {
   position: relative;
 }
 
+.produtos-itens .images-container {
+  width: 10.6rem;
+  height: 10.6rem;
+}
+
 .produtos-imagem-todos {
-  height: 11.7rem;
-  width: 11rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.produtos-nome, 
+.produtos-preço {
+  color: var(--color-dim-gray);
 }
 
 .produtos-nome {
