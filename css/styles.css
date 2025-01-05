@@ -150,6 +150,7 @@ main {
       rgba(0, 0, 0, 0.6) 80%
     ),
     url("../imagens/banner-principal.svg") no-repeat center/cover;
+    background-blend-mode: color;
 }
 
 .banner-box {
