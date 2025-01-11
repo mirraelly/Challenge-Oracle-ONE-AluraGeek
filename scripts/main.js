@@ -1,5 +1,4 @@
 // Enviar mensagem
-
 const form = document.querySelector("[data-form]");
 
 form.addEventListener("submit", (evento) => {
