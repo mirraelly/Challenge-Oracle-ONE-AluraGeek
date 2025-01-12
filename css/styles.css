@@ -725,6 +725,7 @@ input::-moz-placeholder {
   }
   .products-title {
     font-size: 1.375rem;
+    margin-block-start: 0.5em;
   }
   .produtos-link {
     font-size: 1rem;
@@ -762,6 +763,23 @@ input::-moz-placeholder {
     width: 50%;
     height: 3rem;
   }
+
+  .products-add-button {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .products-box {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products-top {
+    flex-direction: column;
+    align-items: start;
+  }
+
 }
 
 @media (max-width: 560px) {
