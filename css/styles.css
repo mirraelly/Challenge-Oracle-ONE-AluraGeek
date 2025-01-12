@@ -284,16 +284,33 @@ main {
 .produtos-nome {
   font-size: 0.9rem;
   font-weight: 500;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .produtos-preço {
   font-weight: bold;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .products-title {
   font-weight: bold;
   font-size: 2rem;
   color: var(--color-dim-gray);
+}
+
+.produtos-vitrine {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.produtos-codigo {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: var(--color-dim-gray);
+  font-size: 14px;
 }
 
 .produtos-preço {
@@ -542,21 +559,21 @@ ul {
   height: inherit;
 }
 
-input:-ms-input-placeholder  {
-  font-size:16px;
+input:-ms-input-placeholder {
+  font-size: 16px;
 }
 
 input::-webkit-input-placeholder {
-  font-size:16px;
+  font-size: 16px;
 }
 
 input:-moz-placeholder {
-  font-size:16px;
+  font-size: 16px;
 }
 
 /* firefox 19+ */
 input::-moz-placeholder {
-  font-size:16px;
+  font-size: 16px;
 }
 
 .email-input,
@@ -582,8 +599,22 @@ input::-moz-placeholder {
   color: var(--color-white);
 }
 
-/* Responsividade para tablets */
+/* Tela de produtos */
+.products-showcase-section {
+  background: var(--color-light-gray);
+  padding: 2rem 8rem 4rem 8rem;
+}
 
+.products-add-button {
+  text-decoration: none;
+  padding: 1rem 1rem;
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* Responsividade para tablets */
 @media (max-width: 1024px) {
   .header-container {
     height: 4rem;
@@ -698,7 +729,8 @@ input::-moz-placeholder {
     width: 50%;
   }
 
-  .login-form-field, .senha-form-field {
+  .login-form-field,
+  .senha-form-field {
     height: 2rem;
   }
 
@@ -711,7 +743,6 @@ input::-moz-placeholder {
     width: 50%;
     height: 3rem;
   }
-
 }
 
 @media (max-width: 560px) {
@@ -725,7 +756,8 @@ input::-moz-placeholder {
     flex: none;
     width: unset;
   }
-  .login-form-field, .senha-form-field {
+  .login-form-field,
+  .senha-form-field {
     height: 1.8rem;
   }
   .login-form-button {
