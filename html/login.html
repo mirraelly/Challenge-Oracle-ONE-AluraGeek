@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontes utilizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Login - AluraGeek</title>
+  </head>
+
+  <body class="login-body">
+    <section class="container-login" id="login-section">
+      <div class="container-div-login">
+        <form class="login-form" action="submit" data-form="">
+          <p class="login-form-titulo">Iniciar Sessão</p>
+          <fieldset class="login-form-field">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              class="email-input"
+              placeholder="Escreva seu email"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="senha-form-field">
+            <input
+              name="password"
+              id="password"
+              type="password"
+              minlength="4"
+              class="password-input"
+              placeholder="Escreva sua senha"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <div class="container-login-form-button">
+            <button type="submit" class="login-form-button">Entrar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

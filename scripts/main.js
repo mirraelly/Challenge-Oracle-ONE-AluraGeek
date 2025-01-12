@@ -24,9 +24,7 @@ form.addEventListener("submit", (evento) => {
     window.open(mailtoLink, "_blank");
 });
 
-
 // validação
-
 const formFields = document.querySelectorAll("[required]");
 
 formFields.forEach((field) => {

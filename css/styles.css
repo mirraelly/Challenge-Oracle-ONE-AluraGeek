@@ -16,6 +16,11 @@
   font-family: var(--font-primary);
 }
 
+html,
+body {
+  height: -webkit-fill-available;
+}
+
 body {
   line-height: 1;
   font-family: var(--font-primary);
@@ -114,6 +119,7 @@ main {
   color: var(--color-dark-gray);
   font-weight: 400;
   font-size: 0.875rem;
+  outline: none;
 }
 
 .search-container .header-caixa-input {
@@ -170,7 +176,7 @@ main {
       rgba(0, 0, 0, 0.6) 80%
     ),
     url("../imagens/banner-principal.svg") no-repeat center/cover;
-    background-blend-mode: color;
+  background-blend-mode: color;
 }
 
 .banner-box {
@@ -270,7 +276,7 @@ main {
   object-fit: cover;
 }
 
-.produtos-nome, 
+.produtos-nome,
 .produtos-preço {
   color: var(--color-dim-gray);
 }
@@ -332,7 +338,6 @@ main {
   line-height: 1.5;
   gap: 0.25rem;
 }
-
 
 .rodape-nav-lista {
   display: flex;
@@ -420,16 +425,15 @@ ul {
 .rodape-form-field-texto,
 .rodape-form-field-texto-mensagem {
   font-size: 1rem;
-  font-weight: 400; 
-  color: var(--color-dim-gray); 
-  line-height: 1.25rem; 
+  font-weight: 400;
+  color: var(--color-dim-gray);
+  line-height: 1.25rem;
 }
-
 
 .rodape-form-field-texto::placeholder,
 .rodape-form-field-texto-mensagem::placeholder {
-  color: var(--color-dark-gray); 
-  border: none; 
+  color: var(--color-dark-gray);
+  border: none;
 }
 
 /* Remove a borda no foco e durante a digitação */
@@ -441,7 +445,7 @@ ul {
 /* Placeholder invisível ao focar */
 .rodape-form-field-texto:focus::placeholder,
 .rodape-form-field-texto-mensagem:focus::placeholder {
-  color: transparent; 
+  color: transparent;
 }
 
 .rodape-form-button {
@@ -472,10 +476,115 @@ ul {
   color: var(--color-dim-gray);
 }
 
+/* Tela de login */
+.container-login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-div-login {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-body {
+  background: #f5f5f5;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 26.4375rem;
+  max-height: 18.1875rem;
+  width: 90%;
+  gap: 1rem;
+}
+
+.login-form-field,
+.senha-form-field {
+  border: none;
+}
+
+.login-form-titulo {
+  color: var(--color-dim-gray);
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.login-form-field,
+.senha-form-field {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: var(--color-white);
+  border-radius: 0.25rem;
+  border-bottom: solid 1px var(--color-silver);
+  padding-inline: 0;
+}
+
+.input[type="email" i],
+.input[type="password" i] {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-dim-gray);
+  line-height: 1.25rem;
+  max-width: 100%;
+  height: inherit;
+}
+
+input:-ms-input-placeholder  {
+  font-size:16px;
+}
+
+input::-webkit-input-placeholder {
+  font-size:16px;
+}
+
+input:-moz-placeholder {
+  font-size:16px;
+}
+
+/* firefox 19+ */
+input::-moz-placeholder {
+  font-size:16px;
+}
+
+.email-input,
+.password-input {
+  border: none;
+  outline: none;
+  height: inherit;
+  padding-left: 0.7rem;
+}
+
+.container-login-form-button {
+  width: 100%;
+}
+
+.login-form-button {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 200;
+  height: 3.5rem;
+  border: none;
+  cursor: pointer;
+  background: var(--color-blue);
+  color: var(--color-white);
+}
 
 /* Responsividade para tablets */
 
-@media (max-width: 1024px)  {
+@media (max-width: 1024px) {
   .header-container {
     height: 4rem;
   }
@@ -483,7 +592,7 @@ ul {
     width: 1.8rem;
     height: 1.8rem;
   }
-  .logo-container .page-title{
+  .logo-container .page-title {
     font-size: 1rem;
   }
   .left-header .searsh-container {
@@ -506,7 +615,6 @@ ul {
   .rodape-form-button {
     height: 2.5rem;
   }
-
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
@@ -531,7 +639,6 @@ ul {
     padding: 2rem 1.5rem;
     grid-template-columns: 1fr 2fr;
   }
-
 }
 
 /* Responsividade para celulares */
@@ -582,6 +689,28 @@ ul {
     align-items: center;
     text-align: center;
   }
+  .container-login-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-form-button {
+    width: 50%;
+  }
+
+  .login-form-field, .senha-form-field {
+    height: 2rem;
+  }
+
+  .container-login-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-form-button {
+    width: 50%;
+    height: 3rem;
+  }
 
 }
 
@@ -595,5 +724,11 @@ ul {
   .left-header {
     flex: none;
     width: unset;
+  }
+  .login-form-field, .senha-form-field {
+    height: 1.8rem;
+  }
+  .login-form-button {
+    height: 2.5rem;
   }
 }
