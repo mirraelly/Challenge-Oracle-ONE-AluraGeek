@@ -614,6 +614,25 @@ input::-moz-placeholder {
   font-size: 1rem;
 }
 
+.images-container {
+  position: relative;
+}
+
+.container-icones-produtos {
+  display: flex;
+  justify-content: end;
+  gap: 0.8rem;
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding: 0.5rem;
+}
+
+.icones-produtos {
+  font-size: 1.5rem;
+  color: white;
+}
+
 /* Responsividade para tablets */
 @media (max-width: 1024px) {
   .header-container {
@@ -662,7 +681,7 @@ input::-moz-placeholder {
   .banner-conteiner {
     padding: 0rem 1.5rem 0rem 1.5rem;
   }
-  .products-section-home {
+  .products-section-home, .products-showcase-section {
     padding: 1rem 1.5rem 1rem 1.5rem;
   }
   .rodape-content {
@@ -698,7 +717,7 @@ input::-moz-placeholder {
     height: 2.5rem;
     width: 7.4375rem;
   }
-  .products-section-home {
+  .products-section-home, .products-showcase-section {
     padding: 1rem 1rem 1rem 1rem;
   }
   .tablet-produtos-itens {
