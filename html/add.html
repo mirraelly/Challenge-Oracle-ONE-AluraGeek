@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontes utilizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Adicionar novo produto</title>
+  </head>
+  <body class="add-body">
+    <section class="container-add" id="add-section">
+      <div class="container-div-add">
+        <form class="add-form" action="submit" data-form="">
+          <p class="add-form-titulo">Adicionar novo produto</p>
+          <fieldset class="url-form-field">
+            <input
+              name="url"
+              id="url"
+              type="text"
+              class="url-input"
+              placeholder="Url da imagem"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="categoria-form-field">
+            <input
+              name="categoria"
+              id="categoria"
+              type="text"
+              class="categoria-input"
+              placeholder="Categoria"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="nome-produto-form-field">
+            <input
+              name="nome"
+              id="nome"
+              type="text"
+              class="nome-input"
+              placeholder="Nome do produto"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="preco-produto-form-field">
+            <input
+              name="preco"
+              id="preco"
+              type="text"
+              class="preco-input"
+              placeholder="Preço do produto"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="descricao-form-field">
+            <textarea
+              name="descricao"
+              id="descricao"
+              type="text"
+              maxlength="120"
+              minlength="2"
+              class="descricao-form-texto"
+              placeholder="Descrição do produto"
+              required=""
+            >
+            </textarea>
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <div class="container-add-form-button">
+            <button type="submit" class="add-form-button">Adicionar produto</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
