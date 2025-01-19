@@ -11,44 +11,158 @@
       rel="stylesheet"
     />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Login - AluraGeek</title>
   </head>
 
   <body class="login-body">
-    <section class="container-login" id="login-section">
-      <div class="container-div-login">
-        <form class="login-form" action="submit" data-form="">
-          <p class="login-form-titulo">Iniciar Sessão</p>
-          <fieldset class="login-form-field">
-            <input
-              name="email"
-              id="email"
-              type="email"
-              class="email-input"
-              placeholder="Escreva seu email"
-              required=""
-            />
-            <span class="erro-mensagem"></span>
-          </fieldset>
-          <fieldset class="senha-form-field">
-            <input
-              name="password"
-              id="password"
-              type="password"
-              minlength="4"
-              class="password-input"
-              placeholder="Escreva sua senha"
-              required=""
-            />
-            <span class="erro-mensagem"></span>
-          </fieldset>
-          <div class="container-login-form-button">
-            <button type="submit" class="login-form-button">Entrar</button>
-          </div>
-        </form>
+    <header class="header-container">
+      <div class="left-header">
+        <div class="header-left-container">
+          <a href="./index.html" class="logo-container">
+            <div class="logo-image-container">
+              <img
+                src="../imagens/controller.svg"
+                alt="Logo da Alura Geek"
+                class="header-logo"
+              />
+            </div>
+            <h3 class="page-title">Alura<strong>Geek</strong></h3>
+          </a>
+        </div>
+        <div class="searsh-container">
+          <input
+            placeholder="O que deseja encontrar?"
+            type="text"
+            class="header-caixa-input"
+          />
+          <button class="search-button" h data-search-btn></button>
+        </div>
       </div>
-    </section>
+      <div class="right-header">
+        <a class="login-button-container" href="./html/login.html">
+          <button class="header-button">Login</button>
+        </a>
+      </div>
+      <div class="searsh-container-right-header">
+        <button class="search-button-right-header" h data-search-btn></button>
+      </div>
+    </header>
+
+    <main class="login-main">
+      <section class="container-login" id="login-section">
+        <div class="container-div-login">
+          <form class="login-form" action="submit" data-form="">
+            <p class="login-form-titulo">Iniciar Sessão</p>
+            <fieldset class="login-form-field">
+              <input
+                name="email"
+                id="email"
+                type="email"
+                class="email-input"
+                placeholder="Escreva seu email"
+                required=""
+              />
+              <span class="erro-mensagem"></span>
+            </fieldset>
+            <fieldset class="senha-form-field">
+              <input
+                name="password"
+                id="password"
+                type="password"
+                minlength="4"
+                class="password-input"
+                placeholder="Escreva sua senha"
+                required=""
+              />
+              <span class="erro-mensagem"></span>
+            </fieldset>
+            <div class="container-login-form-button">
+              <button type="submit" class="login-form-button">Entrar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape-conteiner">
+      <section class="rodape-content">
+        <nav class="rodape-nav">
+          <a href="./index.html" class="logo-container">
+            <div class="logo-image-container">
+              <img
+                src="../imagens/controller.svg"
+                alt="Logo da Alura Geek"
+                class="header-logo"
+              />
+            </div>
+            <h3 class="page-title">Alura<strong>Geek</strong></h3>
+          </a>
+          <ul class="rodape-nav-lista">
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link">Quem somos nós</a>
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link"
+                >Política de privacidade</a
+              >
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link"
+                >Programa fidelidade</a
+              >
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link">Nossas lojas</a>
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link"
+                >Quero ser franqueado</a
+              >
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link">Anuncie aqui</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="rodape-form" action="submit" data-form="">
+          <p class="rodape-form-titulo">Fale conosco</p>
+          <fieldset class="rodape-form-field">
+            <label class="rodape-form-label" for="nome">Nome</label>
+            <input
+              name="nome"
+              id="nome"
+              maxlength="40"
+              minlength="3"
+              type="text"
+              class="rodape-form-field-texto"
+              required=""
+            />
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="rodape-form-field rodape-form-field-mensagem">
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              type="text"
+              maxlength="120"
+              minlength="2"
+              class="rodape-form-field-texto rodape-form-field-texto-mensagem"
+              placeholder="Escreva sua mensagem"
+              required=""
+            ></textarea>
+            <span class="erro-mensagem"></span>
+          </fieldset>
+          <button type="submit" class="rodape-form-button">
+            Enviar mensagem
+          </button>
+        </form>
+      </section>
+      <section class="rodape-developer-conteiner">
+        <p class="rodape-developer-texto">Desenvolvido por Mirraely Moura</p>
+        <p class="rodape-developer-texto">2023</p>
+      </section>
+    </footer>
   </body>
 </html>
