@@ -920,6 +920,11 @@ input::-moz-placeholder {
     align-items: start;
     gap: 1rem;
   }
+
+  .add-body .header-container .right-header {
+    min-width: 9rem;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 560px) {
