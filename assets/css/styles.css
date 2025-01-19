@@ -18,13 +18,14 @@
 
 html,
 body {
-  height: -webkit-fill-available;
+  height: 100%;
 }
 
 body {
   line-height: 1;
   font-family: var(--font-primary);
   font-size: 1rem;
+  height: min-content;
 }
 
 main {
@@ -90,10 +91,7 @@ main {
 }
 
 .header-container .right-header {
-  /* display: flex;
-  justify-content: space-between; */
   width: 20%;
-  /* gap: 2rem; */
 }
 
 .left-header .searsh-container {
@@ -110,7 +108,6 @@ main {
 
 .searsh-container .header-caixa-input {
   box-sizing: border-box;
-  /* width: 24.5625rem; */
   width: 90%;
   text-align: left;
   height: 1.5rem;
@@ -270,16 +267,10 @@ main {
   flex: 1 1 calc(15% - 16px);
   min-width: 150px;
 }
-/* 
-.produtos-itens .images-container {
-  width: 10.6rem;
-  height: 10.6rem;
-} */
 
 .produtos-imagem-todos {
   width: 100%;
   height: auto;
-  /* flex: 1 1 calc(20% - 16px); */
   object-fit: cover;
 }
 
@@ -520,7 +511,7 @@ ul {
 }
 
 .login-main {
-  background: #f5f5f5;
+  background: var(--color-light-gray);
   padding: 4rem 0 5rem 0;
 }
 
@@ -642,12 +633,12 @@ input::-moz-placeholder {
 
 .icones-produtos {
   font-size: 1.5rem;
-  color: white;
+  color: var(--color-white);
 }
 
 /* Tela add */
 .add-main {
-  background: #f5f5f5;
+  background: var(--color-light-gray);
   position: relative;
   padding: 8rem 0 9rem 0;
 }
