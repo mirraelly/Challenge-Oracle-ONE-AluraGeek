@@ -1,59 +1,75 @@
-// Enviar mensagem
-const form = document.querySelector("[data-form]");
+const form = document.querySelector("#contactForm");
+const formFields = document.querySelectorAll("[required]");
 
-form.addEventListener("submit", (evento) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const answerList = {
         nome: e.target.elements["nome"].value,
-        message: e.target.elements["mensagem"].value,
+        mensagem: e.target.elements["mensagem"].value
     };
 
+    let formIsValid = true;
+    formFields.forEach((field) => {
+        if (!field.checkValidity()) {
+            checkField(field);
+            formIsValid = false;
+        }
+    });
+
+    if (!formIsValid) return;
+    alert("Formulário enviado com sucesso!");
+    form.reset();
+
     const params = new URLSearchParams();
-    params.append("subject", answerList.assunto);
+    params.append("subject", "Mensagem de contato");
     params.append(
         "body",
-        `      Nome: ${answerList.nome}
-      Mensagem: ${answerList.mensagem}`
+        `Nome: ${answerList.nome}\nMensagem: ${answerList.mensagem}`
     );
 
-    const mailtoLink = `mirraely:contato@alurageek.com?${params
+    const mailtoLink = `mailto:contato@alurageek.com?${params
         .toString()
         .replaceAll("+", " ")}`;
-
-    window.open(mailtoLink, "_blank");
 });
 
-// validação
-const formFields = document.querySelectorAll("[required]");
+function checkField(field) {
+    const errorType = field.validity;
+    const fieldName = field.name;
+    const errorMessages = erroMensagem[fieldName] || {};
 
-formFields.forEach((field) => {
-    field.addEventListener("blur", () => checkField(field));
-    field.addEventListener("invalid", (event) => event.preventDefault());
-});
+    const errorElement = document.querySelector(`#erro-${fieldName}`);
+    const fieldset = field.closest('fieldset');
+    
+    errorElement.textContent = ""; 
+    fieldset.style.marginBottom = "0"; 
 
-const errorTypes = [
-    "valueMissing",
-    "typeMismatch",
-    "patternMismatch",
-    "tooShort",
-    "customError",
-];
+    for (let error in errorType) {
+        if (errorType[error]) {
+            const message = errorMessages[error];
+            errorElement.textContent = message; 
+            fieldset.style.marginBottom = "1rem";
+            return;
+        }
+    }
+}
 
 const erroMensagem = {
     nome: {
-        valueMissing: "O campo de nome não pode estar vazio.",
-        patternMismatch: "Por favor, preencha um nome válido.",
-        tooShort: "Por favor, preencha um nome válido.",
+        valueMissing: "*Campo obrigatório.",
+        patternMismatch: "*Campo inválido ou vazio.",
+        tooShort: "*Campo inválido ou vazio.",
     },
-
     mensagem: {
-        valueMissing: "O campo não pode estar vazio.",
-        tooShort: "O campo não tem caracteres suficientes.",
-    },
-    email: {
-        valueMissing: "O campo de e-mail não pode estar vazio.",
-        typeMismatch: "Por favor, preencha um email válido.",
-        tooShort: "Por favor, preencha um e-mail válido.",
-    },
-}
+        valueMissing: "*Campo obrigatório.",
+        tooShort: "*Campo inválido ou vazio.",
+    }
+};
+
+formFields.forEach((field) => {
+    field.addEventListener("blur", () => checkField(field));
+    field.addEventListener("invalid", (event) => {
+        event.preventDefault(); 
+        checkField(event.target); 
+    });
+});

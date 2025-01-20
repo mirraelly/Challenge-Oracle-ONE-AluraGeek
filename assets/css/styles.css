@@ -429,11 +429,22 @@ ul {
   line-height: 1.25rem;
 }
 
+/* Mensagem de erro */
 .erro-mensagem {
   padding: 0.15rem;
   margin: 0.5rem 0 0 0;
   font-size: 0.65rem;
   color: var(--color-red);
+  display: none;
+}
+
+input:invalid + .erro-mensagem,
+textarea:invalid + .erro-mensagem {
+    display: block;
+}
+
+.rodape-form-field:invalid {
+  margin-bottom: 1rem; 
 }
 
 /* Estilização do placeholder */
@@ -455,6 +466,12 @@ ul {
 .rodape-form-field-texto:focus,
 .rodape-form-field-texto-mensagem:focus {
   outline: none;
+}
+
+textarea::placeholder {
+  color: var(--color-dark-gray); 
+  font-size: 1rem; 
+  opacity: 1; 
 }
 
 /* Placeholder invisível ao focar */
