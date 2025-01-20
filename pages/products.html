@@ -1243,9 +1243,9 @@
             </li>
           </ul>
         </nav>
-        <form class="rodape-form" action="submit" data-form="">
+        <form class="rodape-form" action="submit" id="contactForm" novalidate>
           <p class="rodape-form-titulo">Fale conosco</p>
-          <fieldset class="rodape-form-field">
+          <fieldset class="rodape-form-field rodape-form-field-nome">
             <label class="rodape-form-label" for="nome">Nome</label>
             <input
               name="nome"
@@ -1254,22 +1254,24 @@
               minlength="3"
               type="text"
               class="rodape-form-field-texto"
-              required=""
+              aria-describedby="erro-nome"
+              required
             />
-            <span class="erro-mensagem"></span>
+            <span id="erro-nome" class="erro-mensagem"></span>
           </fieldset>
           <fieldset class="rodape-form-field rodape-form-field-mensagem">
             <textarea
               name="mensagem"
               id="mensagem"
-              type="text"
               maxlength="120"
               minlength="2"
               class="rodape-form-field-texto rodape-form-field-texto-mensagem"
               placeholder="Escreva sua mensagem"
-              required=""
-            ></textarea>
-            <span class="erro-mensagem"></span>
+              aria-describedby="erro-mensagem"
+              required
+            >
+          </textarea>
+            <span id="erro-mensagem" class="erro-mensagem"></span>
           </fieldset>
           <button type="submit" class="rodape-form-button">
             Enviar mensagem
