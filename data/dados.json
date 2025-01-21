@@ -1,0 +1,148 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Caneca",
+            "preco": 60.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/star-wars.svg"
+        },
+        {
+            "id": 2,
+            "nome": "Capacetes - LEGO",
+            "preco": 250.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/caixa-som-star-wars.svg"
+        },
+        {
+            "id": 3,
+            "nome": "Mestre Yoda",
+            "preco": 90.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/ioda.svg"
+        },
+        {
+            "id": 4,
+            "nome": "Stormtrooper",
+            "preco": 185.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/robo-star-wars.svg"
+        },
+        {
+            "id": 5,
+            "nome": "Baby Yoda",
+            "preco": 115.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/yoda-grande.svg"
+        },
+        {
+            "id": 6,
+            "nome": "Kylo Ren",
+            "preco": 60.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/boneco-star-wars-com-capa.svg"
+        },
+        {
+            "id": 7,
+            "nome": "Joystick Xbox",
+            "preco": 370.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/controller-white.svg"
+        },
+        {
+            "id": 8,
+            "nome": "PS5",
+            "preco": 350.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/video-game.svg"
+        },
+        {
+            "id": 9,
+            "nome": "NES",
+            "preco": 399.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/nintendo.svg"
+        },
+        {
+            "id": 10,
+            "nome": "Joycon Nintendo Switch",
+            "preco": 4499.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/nintendo-switch.svg"
+        },
+        {
+            "id": 11,
+            "nome": "Xbox-series X",
+            "preco": 499.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game8.svg"
+        },
+        {
+            "id": 12,
+            "nome": "Gameboy color",
+            "preco": 499.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game9.svg"
+        },
+        {
+            "id": 13,
+            "nome": "Camisa Atari",
+            "preco": 89.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game10.svg"
+        },
+        {
+            "id": 14,
+            "nome": "Camisa SNES",
+            "preco": 89.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game11.svg"
+        },
+        {
+            "id": 15,
+            "nome": "Sonic",
+            "preco": 149.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game12.svg"
+        },
+        {
+            "id": 16,
+            "nome": "Radio relógio Barbie",
+            "preco": 399.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game13.svg"
+        },
+        {
+            "id": 17,
+            "nome": "Óculos RV",
+            "preco": 399.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game14.svg"
+        },
+        {
+            "id": 18,
+            "nome": "Pikachu",
+            "preco": 399.00,
+            "codigo": "#1111111",
+            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
+            "imagem": "./assets/imagens/game15.svg"
+        }
+    ]
+}
