@@ -6,7 +6,7 @@
             "preco": 60.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/star-wars.svg"
+            "imagem": "/assets/imagens/star-wars.svg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "preco": 250.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/caixa-som-star-wars.svg"
+            "imagem": "/assets/imagens/caixa-som-star-wars.svg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "preco": 90.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/ioda.svg"
+            "imagem": "/assets/imagens/ioda.svg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "preco": 185.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/robo-star-wars.svg"
+            "imagem": "/assets/imagens/robo-star-wars.svg"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "preco": 115.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/yoda-grande.svg"
+            "imagem": "/assets/imagens/yoda-grande.svg"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "preco": 60.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/boneco-star-wars-com-capa.svg"
+            "imagem": "/assets/imagens/boneco-star-wars-com-capa.svg"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "preco": 370.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/controller-white.svg"
+            "imagem": "/assets/imagens/controller-white.svg"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "preco": 350.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/video-game.svg"
+            "imagem": "/assets/imagens/video-game.svg"
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "preco": 399.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/nintendo.svg"
+            "imagem": "/assets/imagens/nintendo.svg"
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
             "preco": 4499.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/nintendo-switch.svg"
+            "imagem": "/assets/imagens/nintendo-switch.svg"
         },
         {
             "id": 11,
@@ -86,7 +86,7 @@
             "preco": 499.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game8.svg"
+            "imagem": "/assets/imagens/game8.svg"
         },
         {
             "id": 12,
@@ -94,7 +94,7 @@
             "preco": 499.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game9.svg"
+            "imagem": "/assets/imagens/game9.svg"
         },
         {
             "id": 13,
@@ -102,7 +102,7 @@
             "preco": 89.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game10.svg"
+            "imagem": "/assets/imagens/game10.svg"
         },
         {
             "id": 14,
@@ -110,7 +110,7 @@
             "preco": 89.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game11.svg"
+            "imagem": "/assets/imagens/game11.svg"
         },
         {
             "id": 15,
@@ -118,7 +118,7 @@
             "preco": 149.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game12.svg"
+            "imagem": "/assets/imagens/game12.svg"
         },
         {
             "id": 16,
@@ -126,7 +126,7 @@
             "preco": 399.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game13.svg"
+            "imagem": "/assets/imagens/game13.svg"
         },
         {
             "id": 17,
@@ -134,7 +134,7 @@
             "preco": 399.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game14.svg"
+            "imagem": "/assets/imagens/game14.svg"
         },
         {
             "id": 18,
@@ -142,7 +142,7 @@
             "preco": 399.00,
             "codigo": "#1111111",
             "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam.",
-            "imagem": "./assets/imagens/game15.svg"
+            "imagem": "/assets/imagens/game15.svg"
         }
     ]
 }

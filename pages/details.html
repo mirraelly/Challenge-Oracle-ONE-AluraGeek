@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+    <!-- Fontes utilizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <title>Details</title>
+
+    <script src="../assets/js/dados.js" defer></script>
+
+  </head>
+
+  <body class="details-main">
+    <header class="header-container">
+      <div class="left-header">
+        <div class="header-left-container">
+          <a href="./index.html" class="logo-container">
+            <div class="logo-image-container">
+              <img
+                src="../assets/imagens/controller.svg"
+                alt="Logo da Alura Geek"
+                class="header-logo"
+              />
+            </div>
+            <h3 class="page-title">Alura<strong>Geek</strong></h3>
+          </a>
+        </div>
+        <div class="searsh-container">
+          <input
+            placeholder="O que deseja encontrar?"
+            type="text"
+            class="header-caixa-input"
+          />
+          <button class="search-button" h data-search-btn></button>
+        </div>
+      </div>
+      <div class="searsh-container-right-header">
+        <button class="search-button-right-header" h data-search-btn></button>
+      </div>
+    </header>
+
+    <main class="details-body">
+      <section class="products-showcase-section">
+        <div class="products-box" data-product="">
+          <section class="products-box-top">
+            <div class="image-container">
+              <img
+                src="../assets/imagens/caixa-som-star-wars.svg"
+                alt="Imagem do produto"
+                id="productImage"
+              />
+            </div>
+            <div class="information-container">
+              <h3 class="name-product" id="titleProduct">Produto XYZ</h3>
+              <div class="priceProduct">R$ <strong id="priceProduct">60,00</strong></div>
+              <div id="descricaoProduct">
+                Teste
+              </div>
+            </div>
+          </section>
+          
+          <section class="products-container">
+            <div class="products-top">
+              <h2 class="products-title">Produtos similares</h2>
+            </div>
+
+            <div class="products-bottom" id="diversos">
+              <div class="produtos-itens" data-id="13">
+                <div class="images-container">
+                  <img
+                    src="../assets/imagens/caixa-som-star-wars.svg"
+                    alt="Game 10"
+                    class="produtos-imagem-todos" 
+                  />
+                </div>
+                <h2 class="produtos-nome">Camisa Atari</h2>
+                <p class="produtos-preço">R$ 89.00</p>
+                <a
+                  href="./pages/details.html?id=13"
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="14">
+                <div class="images-container">
+                  <img
+                    src="../assets/imagens/caixa-som-star-wars.svg"
+                    alt="Game 11"
+                    class="produtos-imagem-todos"
+                  />
+                </div>
+                <h2 class="produtos-nome">Camisa SNES</h2>
+                <p class="produtos-preço">R$ 89.00</p>
+                <a
+                  href="./pages/details.html?id=14"
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="15">
+                <div class="images-container">
+                  <img
+                    src="../assets/imagens/caixa-som-star-wars.svg"
+                    alt="Game 12"
+                    class="produtos-imagem-todos"
+                  />
+                </div>
+                <h2 class="produtos-nome">Sonic</h2>
+                <p class="produtos-preço">R$ 149.00</p>
+                <a
+                  href="./pages/details.html?id=15"
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens" data-id="16">
+                <div class="images-container">
+                  <img
+                    src="../assets/imagens/caixa-som-star-wars.svg"
+                    alt="Game 13"
+                    class="produtos-imagem-todos"
+                  />
+                </div>
+                <h2 class="produtos-nome">Radio relógio Barbie</h2>
+                <p class="produtos-preço">R$ 399.00</p>
+                <a
+                  href="./pages/details.html?id=16"
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens tablet-produtos-itens" data-id="17">
+                <div class="images-container">
+                  <img
+                    src="../assets/imagens/caixa-som-star-wars.svg"
+                    alt="Game 14"
+                    class="produtos-imagem-todos"
+                  />
+                </div>
+                <h2 class="produtos-nome">Óculos RV</h2>
+                <p class="produtos-preço">R$ 399.00</p>
+                <a
+                  href="./pages/details.html?id=17"
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+              <div class="produtos-itens tablet-produtos-itens" data-id="18">
+                <div class="images-container">
+                  <img
+                    src="../assets/imagens/caixa-som-star-wars.svg"
+                    alt="Game 15"
+                    class="produtos-imagem-todos"
+                  />
+                </div>
+                <h2 class="produtos-nome">Pikachu</h2>
+                <p class="produtos-preço">R$ 399.00</p>
+                <a
+                  href="./pages/details.html?id=18"
+                  class="produtos-link"
+                  id="ver-produto"
+                  data-product-id=""
+                  >Ver produto</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape-conteiner">
+      <section class="rodape-content">
+        <nav class="rodape-nav">
+          <a href="./index.html" class="logo-container">
+            <div class="logo-image-container">
+              <img
+                src="../assets/imagens/controller.svg"
+                alt="Logo da Alura Geek"
+                class="header-logo"
+              />
+            </div>
+            <h3 class="page-title">Alura<strong>Geek</strong></h3>
+          </a>
+          <ul class="rodape-nav-lista">
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link">Quem somos nós</a>
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link"
+                >Política de privacidade</a
+              >
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link"
+                >Programa fidelidade</a
+              >
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link">Nossas lojas</a>
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link"
+                >Quero ser franqueado</a
+              >
+            </li>
+            <li class="rodape-nav-lista-item">
+              <a href="#" class="rodape-nav-lista-item-link">Anuncie aqui</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="rodape-form" action="submit" id="contactForm" novalidate>
+          <p class="rodape-form-titulo">Fale conosco</p>
+          <fieldset class="rodape-form-field rodape-form-field-nome">
+            <label class="rodape-form-label" for="nome">Nome</label>
+            <input
+              name="nome"
+              id="nome"
+              maxlength="40"
+              minlength="3"
+              type="text"
+              class="rodape-form-field-texto"
+              aria-describedby="erro-nome"
+              required
+            />
+            <span id="erro-nome" class="erro-mensagem"></span>
+          </fieldset>
+          <fieldset class="rodape-form-field rodape-form-field-mensagem">
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              maxlength="120"
+              minlength="2"
+              class="rodape-form-field-texto rodape-form-field-texto-mensagem"
+              placeholder="Escreva sua mensagem"
+              aria-describedby="erro-mensagem"
+              required
+            >
+            </textarea>
+            <span id="erro-mensagem" class="erro-mensagem"></span>
+          </fieldset>
+          <button type="submit" class="rodape-form-button">
+            Enviar mensagem
+          </button>
+        </form>
+      </section>
+      <section class="rodape-developer-conteiner">
+        <p class="rodape-developer-texto">Desenvolvido por Mirraely Moura</p>
+        <p class="rodape-developer-texto">2023</p>
+      </section>
+    </footer>
+  </body>
+</html>
